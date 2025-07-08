@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -31,6 +34,17 @@ export default {
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				brand: {
+					blue: 'hsl(var(--brand-blue))',
+					yellow: 'hsl(var(--brand-yellow))',
+					green: 'hsl(var(--brand-green))',
+					red: 'hsl(var(--brand-red))'
+				},
+				surface: {
+					DEFAULT: 'hsl(var(--surface))',
+					hover: 'hsl(var(--surface-hover))',
+					active: 'hsl(var(--surface-active))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
